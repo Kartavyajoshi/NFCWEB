@@ -9,6 +9,7 @@
     height: 100vh;
 }
 .navbar {
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -16,10 +17,9 @@
 }
 
 .navbar ul {
+    margin-top: 20px;
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
 }
 
@@ -40,4 +40,14 @@
 }
 .navbar a:hover {
     color: rgb(255, 255, 255);
+}
+.buttontext{
+    color:#ffffff;
+}
+.log{
+    margin-top: 150px;
+}
+.ptext{
+    font-size: large;
+    color: azure;
 }
